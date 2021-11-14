@@ -56,6 +56,18 @@ drwxrwxrwx                                               r : read  w : write x :
 chmod go-rwx NOD                                         For example, to remove read write and execute permissions on the file biglist for the group and others
 chmod a+rw biglist                                       to give a specific permission             U : USER  g:GROUP  O:OTHER
 chmod a-rw biglist                                       to remove a specific permission
+uname -a                                                 This will let u know which version of linux are u using!
+du                                                       The du command outputs the number of kilobyes used by each subdirectory
+du -s *                                                  The -s flag will display only a summary (total size) and the * means all files and directories
+gzip NOD                                                 to zip the directry
+gunzip NOD.gz                                            to unzip the zip the zipped file
+zcat NOD.gz                                              zcat will read gzipped files without needing to uncompress them first
+diff file1 file2                                         to check the differences
+
+
+
+
+
 
 
 
