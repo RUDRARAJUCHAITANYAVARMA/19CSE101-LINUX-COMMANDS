@@ -63,6 +63,27 @@ gzip NOD                                                 to zip the directry
 gunzip NOD.gz                                            to unzip the zip the zipped file
 zcat NOD.gz                                              zcat will read gzipped files without needing to uncompress them first
 diff file1 file2                                         to check the differences
+history                                                  history of commands used
+!!                                                       recall last command
+i-3                                                      recall third most recent command
+i5                                                       recall 5th command in list
+igrep()                                                  recall last command starting with grep
+set history=100                                          You can increase the size of the history buffer 
+echo $OSTYPE                                             type of os system
+USER                                                     your login name
+HOME                                                     the path name of your home directory
+HOST                                                     the name of the computer you are using
+ARCH                                                     the architecture of the computers processor
+DISPLAY                                                  the name of the computer screen to display X windows
+PRINTER                                                  the default printer to send print jobs
+PATH                                                     the directories the shell should search to find a command
+printenv | less                                          To show all values of these variables, type
+
+
+
+
+
+
 
 
 
