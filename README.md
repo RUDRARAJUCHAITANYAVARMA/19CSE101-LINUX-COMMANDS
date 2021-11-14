@@ -70,13 +70,13 @@ i5                                                       recall 5th command in l
 igrep()                                                  recall last command starting with grep
 set history=100                                          You can increase the size of the history buffer 
 echo $OSTYPE                                             type of os system
-USER                                                     your login name
-HOME                                                     the path name of your home directory
-HOST                                                     the name of the computer you are using
-ARCH                                                     the architecture of the computers processor
-DISPLAY                                                  the name of the computer screen to display X windows
-PRINTER                                                  the default printer to send print jobs
-PATH                                                     the directories the shell should search to find a command
+echo $USER                                               your login name
+echo $HOME                                               the path name of your home directory
+echo $HOST                                               the name of the computer you are using
+echo $ARCH                                               the architecture of the computers processor
+echo $DISPLAY                                            the name of the computer screen to display X windows
+echo $PRINTER                                            the default printer to send print jobs
+echo $PATH                                               the directories the shell should search to find a command
 printenv | less                                          To show all values of these variables, type
 
 
