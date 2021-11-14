@@ -78,7 +78,7 @@ echo $DISPLAY                                            the name of the compute
 echo $PRINTER                                            the default printer to send print jobs
 echo $PATH                                               the directories the shell should search to find a command
 printenv | less                                          To show all values of these variables, type
-
+cp -r                                                    copy one directry to another directry
 
 
 
