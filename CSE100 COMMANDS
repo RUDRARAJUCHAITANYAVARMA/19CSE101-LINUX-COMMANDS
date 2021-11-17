@@ -79,3 +79,7 @@ echo $PRINTER                                            the default printer to 
 echo $PATH                                               the directories the shell should search to find a command
 printenv | less                                          To show all values of these variables, type
 cp -r                                                    copy one directry to another directry
+cal -n                                                   will show current , before , after
+pgrep                                                    to find process id for a specific command
+sort -n NOD                                              sort by numbers
+
